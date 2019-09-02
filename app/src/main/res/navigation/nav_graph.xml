@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/selectLanguage">
 
+    <fragment
+        android:id="@+id/selectLanguage"
+        android:name="com.example.atmapp.fragments.SelectLanguage"
+        android:label="fragment_select_language"
+        tools:layout="@layout/fragment_select_language" />
+    <fragment
+        android:id="@+id/atmPin"
+        android:name="com.example.atmapp.fragments.AtmPin"
+        android:label="fragment_atm_pin"
+        tools:layout="@layout/fragment_atm_pin" />
+    <fragment
+        android:id="@+id/transactionAmount"
+        android:name="com.example.atmapp.fragments.TransactionAmount"
+        android:label="fragment_transaction_amount"
+        tools:layout="@layout/fragment_transaction_amount" />
+    <fragment
+        android:id="@+id/transactionType"
+        android:name="com.example.atmapp.fragments.TransactionType"
+        android:label="fragment_transaction_type"
+        tools:layout="@layout/fragment_transaction_type" />
 </navigation>
