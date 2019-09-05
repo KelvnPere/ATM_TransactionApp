@@ -1,2 +1,2 @@
-include ':atm', ':bank'
+include ':bankapp', ':bank'
 rootProject.name='ATM App'

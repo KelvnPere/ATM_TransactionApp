@@ -8,8 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/atm" />
             <option value="$PROJECT_DIR$/bank" />
+            <option value="$PROJECT_DIR$/bankapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

@@ -6,13 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/my_nav_host_fragment"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id = "@+id/withdrawalRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        app:navGraph ="@navigation/nav_graph"
-        app:defaultNavHost= "true">
-    </fragment>
-
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="100dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
